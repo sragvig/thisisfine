@@ -83,7 +83,10 @@ header {
 .hero {
     text-align: center;
     padding: 6rem 2rem 4rem 2rem;
-    background: radial-gradient(circle at top, #344254 0%, var(--bg-dark) 70%);
+    background-image: linear-gradient(rgba(30, 38, 47, 0.75), rgba(30, 38, 47, 0.85)), url('homehero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero h1 {
