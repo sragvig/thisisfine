@@ -148,7 +148,7 @@ h2 {
 }
 
 .hero-logo {
-    height: 3.5rem; /* This makes it match the exact height of your text */
+    height: 1.5rem; /* This makes it match the exact height of your text */
     width: auto;    /* This keeps the image from stretching distortion-wise */
     vertical-align: middle; /* Aligns it perfectly with the middle of the words */
     margin-left: 0.5rem;   /* Gives it a little breathing room from the text */
