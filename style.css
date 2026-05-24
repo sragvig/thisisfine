@@ -124,7 +124,7 @@ h2 {
 /* --- Playful UI Elements & Cards --- */
 .btn {
     display: inline-block;
-    background-color: var(--accent-amber);
+    background-color: var(--accent-yellow);
     color: var(--bg-dark);
     padding: 0.8rem 2rem;
     border-radius: 50px;
