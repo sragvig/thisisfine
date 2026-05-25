@@ -196,7 +196,7 @@ h2 {
     border-radius: 24px;
     padding: 2.5rem;
     gap: 2rem;
-    border: 3px dashed var(--accent-blue);
+    border: 3px dashed var(--accent-amber);
     margin: 3rem 0;
 }
 
