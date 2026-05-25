@@ -197,6 +197,21 @@ h2 {
     border-color: var(--accent-white);
 }
 
+/* Makes the entire card wrapper space clickable */
+.card-link {
+    display: block;
+    padding: 2rem;          /* Moves the original card padding here so the entire zone is clickable */
+    text-decoration: none;  /* Gets rid of unwanted default link underlines */
+    color: inherit;         /* Tells the text inside to inherit your standard light theme colors */
+    height: 100%;           /* Ensures the link fills out the full height of the parent grid box */
+    border-radius: 20px;    /* Matches the smooth rounded corners of your cards */
+}
+
+/* Optional: Gives a slight interactive pointer feedback when hovering anywhere on the card */
+.card-link:hover {
+    cursor: pointer;
+}
+
 /* --- Stat Badges --- */
 .stats-banner {
     display: flex;
