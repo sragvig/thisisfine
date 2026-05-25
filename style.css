@@ -170,7 +170,7 @@ h2 {
 
 .dashboard-title {
     /* 1. INCREASE space between the upper cards and this heading */
-    margin-top: 4rem;       /* Default was around 0; 5rem pushes it down beautifully */
+    margin-top: 2rem;       /* Default was around 0; 5rem pushes it down beautifully */
 
     /* 2. REDUCE space between this heading and the dashboard below it */
     margin-bottom: 0.2rem;  /* Keeps the heading snug and close to the dashboard */
