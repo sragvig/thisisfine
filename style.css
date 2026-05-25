@@ -21,7 +21,7 @@
 }
 
 body {
-    background-color: var(--bg-dark);
+    background-color: var(--accent-black);
     color: var(--text-light);
     font-family: var(--font-main);
     line-height: 1.6;
@@ -30,7 +30,7 @@ body {
 
 /* --- Navigation --- */
 header {
-    background-color: rgba(42, 53, 67, 0.95);
+    background-color: var(--accent-black);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -170,7 +170,7 @@ h2 {
 
 .dashboard-title {
     /* 1. INCREASE space between the upper cards and this heading */
-    margin-top: 5rem;       /* Default was around 0; 5rem pushes it down beautifully */
+    margin-top: 4rem;       /* Default was around 0; 5rem pushes it down beautifully */
 
     /* 2. REDUCE space between this heading and the dashboard below it */
     margin-bottom: 0.5rem;  /* Keeps the heading snug and close to the dashboard */
