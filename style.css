@@ -218,14 +218,14 @@ h2 {
 .dashboard-hero-container {
     width: 100%;
     background-color: var(--bg-dark); /* Keeps the main dark site background flowing behind it */
-    margin-top: 5rem; 
+    margin-top: 2rem; 
     margin-bottom: 2rem;
 }
 
 /* Tweaking the dashboard layout inside its new container */
 .dashboard-hero-container .dashboard-title {
     margin-top: 0 !important; /* Resets the old top margin since the container handles spacing now */
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: var(--accent-yellow);
 }
 
