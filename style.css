@@ -163,7 +163,7 @@ h2 {
     display: inline-block;
     vertical-align: baseline; 
     margin-left: 4px;       /* Adds space between "ThisIsFine" text and the logo */
-    margin-top: 1px;       /* Shuts it slightly upward to sit perfectly straight */
+    margin-top: 2px;       /* Shuts it slightly upward to sit perfectly straight */
 }
 
 .grid {
