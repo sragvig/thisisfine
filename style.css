@@ -213,6 +213,35 @@ h2 {
 }
 
 /* --- Stat Badges --- */
+
+/* --- Dedicated Impact Dashboard Panel --- */
+.dashboard-hero-container {
+    width: 100%;
+    background-image: linear-gradient(rgba(30, 38, 47, 0.75), rgba(30, 38, 47, 0.85)), url('homeimpact.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* above stuff Mirrors your hero section's smooth dark radial gradient */
+    border-top: 3px dashed var(--accent-amber);
+    border-bottom: 3px dashed var(--accent-amber);
+    margin-top: 5rem; /* Keeps that nice big gap after your fact cards */
+    margin-bottom: 2rem;
+}
+
+/* Tweaking the dashboard layout inside its new container */
+.dashboard-hero-container .dashboard-title {
+    margin-top: 0 !important; /* Resets the old top margin since the container handles spacing now */
+    margin-bottom: 2rem;
+    color: var(--accent-yellow);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.dashboard-hero-container .stats-banner {
+    /* Subtle semi-transparent dark backing so the individual numbers pop */
+    background-color: rgba(42, 53, 67, 0.6); 
+    backdrop-filter: blur(5px);
+    border: 2px solid var(--accent-yellow);
+}
 .stats-banner {
     display: flex;
     flex-wrap: wrap;
