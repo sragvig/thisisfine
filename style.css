@@ -4,6 +4,7 @@
     --bg-card: #2a3543;
     --accent-yellow: #f4c454;
     --accent-amber: #d77d44;
+    --accent-blue: #a2d1e2;
     --text-light: #f5f7fa;
     --text-muted: #a0aec0;
     --accent-red: #e56a53;
@@ -32,7 +33,7 @@ header {
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
-    border-bottom: 3px solid var(--accent-yellow);
+    border-bottom: 3px solid var(--accent-blue);
 }
 
 .nav-container {
@@ -47,7 +48,7 @@ header {
 .logo {
     font-size: 1.8rem;
     font-weight: 800;
-    color: var(--accent-yellow);
+    color: var(--accent-blue);
     text-decoration: none;
     letter-spacing: -0.5px;
     display: flex;
@@ -139,7 +140,7 @@ h2 {
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 0px #b77528;
-    background-color: var(--accent-yellow);
+    background-color: var(--accent-amber);
 }
 
 .btn:active {
@@ -152,7 +153,7 @@ h2 {
     width: auto;    /* This keeps the image from stretching distortion-wise */
     vertical-align: middle; /* Aligns it perfectly with the middle of the words */
     margin-left: 0.5rem;   /* Gives it a little breathing room from the text */
-    margin-top: -8px
+    margin-top: -10px
 }
 
 .grid {
