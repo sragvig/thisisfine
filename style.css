@@ -77,7 +77,7 @@ header {
 }
 
 .nav-links a:hover, .nav-links a.active {
-    color: var(--accent-yellow);
+    color: var(--accent-blue);
 }
 
 /* --- Hero & Layout Containers --- */
