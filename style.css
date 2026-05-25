@@ -152,8 +152,8 @@ h2 {
     height: 3.5rem; /* This makes it match the exact height of your text */
     width: auto;    /* This keeps the image from stretching distortion-wise */
     vertical-align: middle; /* Aligns it perfectly with the middle of the words */
-    margin-left: 0.5rem;   /* Gives it a little breathing room from the text */
-    margin-top: -10px
+    margin-left: 1px;   /* Gives it a little breathing room from the text */
+    margin-top: -14px
 }
 
 .nav-logo {
@@ -162,7 +162,7 @@ h2 {
     display: inline-block;
     vertical-align: baseline; 
     margin-left: 4px;       /* Adds space between "ThisIsFine" text and the logo */
-    margin-top: -1px;       /* Shuts it slightly upward to sit perfectly straight */
+    margin-top: 1px;       /* Shuts it slightly upward to sit perfectly straight */
 }
 
 .grid {
