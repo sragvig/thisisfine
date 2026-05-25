@@ -156,6 +156,15 @@ h2 {
     margin-top: -10px
 }
 
+.nav-logo {
+    height: 30px;           /* Sized small to fit cleanly inside your top navbar */
+    width: auto;            /* Prevents the image from stretching out of proportion */
+    display: inline-block;
+    vertical-align: baseline; 
+    margin-left: 5px;       /* Adds space between "ThisIsFine" text and the logo */
+    margin-top: -3px;       /* Shuts it slightly upward to sit perfectly straight */
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
