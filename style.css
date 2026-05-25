@@ -184,7 +184,7 @@ h2 {
 
 .card:hover {
     transform: translateY(-5px);
-    border-color: var(--accent-yellow);
+    border-color: var(--accent-blue);
 }
 
 /* --- Stat Badges --- */
@@ -196,7 +196,7 @@ h2 {
     border-radius: 24px;
     padding: 2.5rem;
     gap: 2rem;
-    border: 3px dashed var(--accent-amber);
+    border: 3px dashed var(--accent-blue);
     margin: 3rem 0;
 }
 
