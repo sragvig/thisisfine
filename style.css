@@ -161,8 +161,8 @@ h2 {
     width: auto;            /* Prevents the image from stretching out of proportion */
     display: inline-block;
     vertical-align: baseline; 
-    margin-left: 5px;       /* Adds space between "ThisIsFine" text and the logo */
-    margin-top: -3px;       /* Shuts it slightly upward to sit perfectly straight */
+    margin-left: 4px;       /* Adds space between "ThisIsFine" text and the logo */
+    margin-top: -1px;       /* Shuts it slightly upward to sit perfectly straight */
 }
 
 .grid {
