@@ -217,14 +217,8 @@ h2 {
 /* --- Dedicated Impact Dashboard Panel --- */
 .dashboard-hero-container {
     width: 100%;
-    background-image: linear-gradient(rgba(30, 38, 47, 0.75), rgba(30, 38, 47, 0.85)), url('homeimpact.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* above stuff Mirrors your hero section's smooth dark radial gradient */
-    border-top: 3px dashed var(--accent-amber);
-    border-bottom: 3px dashed var(--accent-amber);
-    margin-top: 5rem; /* Keeps that nice big gap after your fact cards */
+    background-color: var(--bg-dark); /* Keeps the main dark site background flowing behind it */
+    margin-top: 5rem; 
     margin-bottom: 2rem;
 }
 
@@ -233,14 +227,26 @@ h2 {
     margin-top: 0 !important; /* Resets the old top margin since the container handles spacing now */
     margin-bottom: 2rem;
     color: var(--accent-yellow);
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .dashboard-hero-container .stats-banner {
-    /* Subtle semi-transparent dark backing so the individual numbers pop */
-    background-color: rgba(42, 53, 67, 0.6); 
-    backdrop-filter: blur(5px);
-    border: 2px solid var(--accent-yellow);
+/* CHOOSE YOUR IMAGE HERE */
+    background-image: linear-gradient(rgba(42, 53, 67, 0.8), rgba(42, 53, 67, 0.9)), url('homeimpact.png');
+    
+    /* Make the image scale perfectly inside the box boundaries */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Keeps your playful layout styles intact */
+    border: 3px dashed var(--accent-amber);
+    border-radius: 24px;
+    padding: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 .stats-banner {
     display: flex;
