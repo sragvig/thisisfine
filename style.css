@@ -93,7 +93,7 @@ header {
 .hero h1 {
     font-size: 3.5rem;
     font-weight: 900;
-    color: var(--accent-amber);
+    color: var(--accent-yellow);
     margin-bottom: 1rem;
 }
 
@@ -125,7 +125,7 @@ h2 {
 /* --- Playful UI Elements & Cards --- */
 .btn {
     display: inline-block;
-    background-color: var(--accent-yellow);
+    background-color: var(--accent-amber);
     color: var(--bg-dark);
     padding: 0.8rem 2rem;
     border-radius: 50px;
@@ -140,7 +140,7 @@ h2 {
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 0px #b77528;
-    background-color: var(--accent-amber);
+    background-color: var(--accent-yellow);
 }
 
 .btn:active {
