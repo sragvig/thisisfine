@@ -185,7 +185,7 @@ h2 {
 
 .card:hover {
     transform: translateY(-5px);
-    border-color: var(--accent-blue);
+    border-color: var(--accent-white);
 }
 
 /* --- Stat Badges --- */
