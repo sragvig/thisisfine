@@ -167,6 +167,14 @@ h2 {
     margin-top: 2px;       /* Shuts it slightly upward to sit perfectly straight */
 }
 
+.dashboard-title {
+    /* 1. INCREASE space between the upper cards and this heading */
+    margin-top: 5rem;       /* Default was around 0; 5rem pushes it down beautifully */
+
+    /* 2. REDUCE space between this heading and the dashboard below it */
+    margin-bottom: 0.5rem;  /* Keeps the heading snug and close to the dashboard */
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -302,7 +310,7 @@ footer {
     text-align: center;
     padding: 2rem;
     margin-top: 6rem;
-    border-top: 3px solid var(--accent-yellow);
+    border-top: 3px solid var(--accent-blue);
     color: var(--text-muted);
 }
 
